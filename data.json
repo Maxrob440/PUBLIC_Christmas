@@ -1,0 +1,170 @@
+{
+    "trainServices": [
+        {
+            "subsequentCallingPoints": [
+                {
+                    "callingPoint": [
+                        {
+                            "locationName": "Crediton",
+                            "crs": "CDI",
+                            "st": "15:48",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        },
+                        {
+                            "locationName": "Exeter St Davids",
+                            "crs": "EXD",
+                            "st": "16:03",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        },
+                        {
+                            "locationName": "Exeter Central",
+                            "crs": "EXC",
+                            "st": "16:07",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        }
+                    ],
+                    "serviceType": "train",
+                    "serviceChangeRequired": false,
+                    "assocIsCancelled": false
+                }
+            ],
+            "futureCancellation": false,
+            "futureDelay": false,
+            "origin": [
+                {
+                    "locationName": "Okehampton",
+                    "crs": "OKE",
+                    "assocIsCancelled": false
+                }
+            ],
+            "destination": [
+                {
+                    "locationName": "Exeter Central",
+                    "crs": "EXC",
+                    "assocIsCancelled": false
+                }
+            ],
+            "std": "15:25",
+            "etd": "On time",
+            "operator": "Great Western Railway",
+            "operatorCode": "GW",
+            "isCircularRoute": false,
+            "isCancelled": false,
+            "filterLocationCancelled": false,
+            "serviceType": "train",
+            "length": 0,
+            "detachFront": false,
+            "isReverseFormation": false,
+            "serviceID": "2528426OKHMPTN_"
+        },
+        {
+            "subsequentCallingPoints": [
+                {
+                    "callingPoint": [
+                        {
+                            "locationName": "Crediton",
+                            "crs": "CDI",
+                            "st": "16:48",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        },
+                        {
+                            "locationName": "Newton St Cyres",
+                            "crs": "NTC",
+                            "st": "16:55",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        },
+                        {
+                            "locationName": "Exeter St Davids",
+                            "crs": "EXD",
+                            "st": "17:03",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        },
+                        {
+                            "locationName": "Exeter Central",
+                            "crs": "EXC",
+                            "st": "17:07",
+                            "et": "On time",
+                            "isCancelled": false,
+                            "length": 0,
+                            "detachFront": false,
+                            "affectedByDiversion": false,
+                            "rerouteDelay": 0
+                        }
+                    ],
+                    "serviceType": "train",
+                    "serviceChangeRequired": false,
+                    "assocIsCancelled": false
+                }
+            ],
+            "futureCancellation": false,
+            "futureDelay": false,
+            "origin": [
+                {
+                    "locationName": "Okehampton",
+                    "crs": "OKE",
+                    "assocIsCancelled": false
+                }
+            ],
+            "destination": [
+                {
+                    "locationName": "Exeter Central",
+                    "crs": "EXC",
+                    "assocIsCancelled": false
+                }
+            ],
+            "std": "16:25",
+            "etd": "On time",
+            "operator": "Great Western Railway",
+            "operatorCode": "GW",
+            "isCircularRoute": false,
+            "isCancelled": false,
+            "filterLocationCancelled": false,
+            "serviceType": "train",
+            "length": 0,
+            "detachFront": false,
+            "isReverseFormation": false,
+            "serviceID": "2528429OKHMPTN_"
+        }
+    ],
+    "Xmlns": {
+        "Count": 8
+    },
+    "generatedAt": "2024-12-23T15:08:05.4506789+00:00",
+    "locationName": "Okehampton",
+    "crs": "OKE",
+    "filterLocationName": "Exeter St Davids",
+    "filtercrs": "EXD",
+    "filterType": "to",
+    "platformAvailable": false,
+    "areServicesAvailable": true
+}
