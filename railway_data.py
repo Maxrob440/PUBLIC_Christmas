@@ -87,7 +87,7 @@ def edit_picture(next_train_data,drive_time,minutes_until_time,minutes_sub_ten=F
     Edit the picture takes inputs of depart time, arrival_time, on time,drive_time,minutes
     Times must be in format %H%M
     """
-    with open('ugly_drawing_updated.svg', 'r', encoding='utf-8') as f:
+    with open('Example_trains.svg', 'r', encoding='utf-8') as f:
         picture = f.read()
         picture = picture.replace('depart_time', next_train_data.departure_time)
         picture = picture.replace('arrival_time', next_train_data.arrival_time)
